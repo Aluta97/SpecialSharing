@@ -1,0 +1,8 @@
+<template name="users">
+  <h2>user</h2>
+
+  {{#each users}}
+  <h2><div>Hello you are logged in as {{username}}</div></h2>
+  {{/each}}
+  <button><a href="/signup">logout</a></button>
+</template>

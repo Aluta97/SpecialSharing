@@ -1,0 +1,19 @@
+<template name="base">
+		{{#if currentUser}}
+		<button><a href="/signup">signup</a></button>
+	    <button><a href="/login">login</a></button>
+
+			{{else}}
+	    <button><a href="/">Home</a></button>
+
+	   	<button><a href="/addSpecial">addSpecial</a></button>
+	   	<!-- {{else}} -->
+	    <button><a href="/shops">viewShops</a></button>
+
+	   	<button><a href="/addShop">addShop</a></button>
+			<button><a href="/users">user</a></button>
+			{{/if}}
+	    	{{>yield}}
+
+
+</template>

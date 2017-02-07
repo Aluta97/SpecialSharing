@@ -1,0 +1,22 @@
+
+button {
+	background-color: white;
+	color: black;
+	border: 2px solid #4CAF50;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+div {
+    display: block;
+		text-decoration: inherit;
+}
+a {
+    color: green;
+}

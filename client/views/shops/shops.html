@@ -1,0 +1,10 @@
+<template name="shops">
+  <h2>The Shops</h2>
+
+  {{#each shops}}
+    <div><a href="/shop/{{_id}}">{{name}}</a></div>
+  {{/each}}
+
+  <button><a href="/addShop">Add New Shop</a></button>
+  <button><a href="/users">viewUser</a></button>
+</template>

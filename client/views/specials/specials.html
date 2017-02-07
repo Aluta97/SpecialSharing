@@ -1,0 +1,11 @@
+<template name="specials">
+<h2>Items on special</h2>
+<img src="/logo.jpg" width="200" >
+
+	{{#each specials}}
+	<div><a href="/special/{{_id}}">{{item}}</a></div>
+	{{/each}}
+
+	<button><a href="/shops">See All Shops</a></button>
+	<button><a href="/addSpecial">add a new special</a></button>
+</template>
